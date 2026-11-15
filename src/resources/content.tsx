@@ -1,3 +1,4 @@
+
 import {
   About,
   Blog,
@@ -64,7 +65,6 @@ const home: Home = {
   headline: (
     <>
       Building scalable backend systems and cloud-native applications.
-      
     </>
   ),
 
@@ -110,10 +110,10 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        I am a third-year Computer Science student at IIIT Nagpur with a
-        strong interest in backend engineering, cloud computing, and DevOps.
-        I enjoy designing scalable backend systems, building REST APIs, and
-        deploying applications using modern cloud infrastructure.
+        I am a Computer Science student at IIIT Nagpur with a strong interest
+        in backend engineering, cloud computing, and DevOps. I enjoy designing
+        scalable backend systems, building REST APIs, and deploying
+        applications using modern cloud infrastructure.
       </>
     ),
   },
@@ -124,23 +124,47 @@ const about: About = {
 
     experiences: [
       {
-        company:
-          "Ministry of Home Affairs (MHA) - in collaboration with IIIT Nagpur",
+        company: "Pitchmatter Holdings Inc.",
 
-        timeframe: "Dec 2024 - Jan 2025",
+        timeframe: "July 2026 - October 2026",
+
+        role: "DevOps Intern",
+
+        achievements: [
+          <>
+            Deployed, configured, and maintained production applications on
+            Liquid Web, managing server environments and application
+            availability.
+          </>,
+
+          <>
+            Set up Docker-based deployments with environment-specific
+            configurations and CI/CD workflows, reducing manual release
+            effort.
+          </>,
+        ],
+
+        images: [],
+      },
+
+      {
+        company:
+          "Ministry of Home Affairs (MHA), Government of India",
+
+        timeframe: "December 2025 - March 2026",
 
         role: "Research Intern",
 
         achievements: [
           <>
-            Worked on an audio signal processing project involving noise
-            reduction, feature extraction, speech recognition, and processing
-            1,100+ Hindi audio samples.
+            Developed and enhanced front-end web pages, implementing new
+            features and improving existing application functionality.
           </>,
 
           <>
-            Fine-tuned the Whisper model and significantly improved
-            transcription accuracy by reducing Word Error Rate (WER).
+            Fine-tuned Whisper and evaluated transcription performance,
+            achieving approximately 70% improvement in Word Error Rate
+            (WER).
           </>,
         ],
 
@@ -236,6 +260,7 @@ const about: About = {
     ],
   },
 };
+
 const blog: Blog = {
   path: "/blog",
   label: "Resume",
